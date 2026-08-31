@@ -1,0 +1,22 @@
+# Python 运行时产物
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 打包分发产物（可由源码用 package_skill.py 重新生成，不入库）
+*.zip
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 生成结果（PPT 产物放在工作目录，不随技能入库）
+*.pptx
+*.tmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
